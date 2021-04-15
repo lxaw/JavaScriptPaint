@@ -21,6 +21,10 @@
 * Look more into objects in JS. Seem to behave a little differently than I imagined coming from Python and Java.
 * Right now this is too clunky for my taste!
 
+###### Notes:
+* Seems like for any real big project, loads of CSS styling is involved.
+* ...which means that I will have to become much more artistic. 
+
 
 
 
