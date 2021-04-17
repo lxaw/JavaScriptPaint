@@ -3,7 +3,7 @@
 ## Simple Paint Web-App w/ JS
 
 ## :cinema: Video:
-* 
+* https://www.youtube.com/watch?v=383bNvfO8tM&ab_channel=log1
 
 ## :grey_question: What is it?
 * A simple web app that is for drawing. You can paint to a screen, clear the screen, change colors, and some other features.
