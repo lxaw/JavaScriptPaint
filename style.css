@@ -1,0 +1,50 @@
+body{
+    margin:0px;padding:0;
+    border-style: solid;
+    border-width:5%;
+}
+
+.myButton{
+    border-radius: 5px;
+    width:auto;
+}
+
+.utils{
+    padding: 0px 20px;
+    display: inline-block;
+    height:700px;
+    overflow:hidden;
+    width:15%;
+    border-style: solid;
+}
+
+.widgets{
+    display:grid;
+}
+
+#title{
+    text-align: center;
+    transform: rotate(5deg);
+}
+
+#colorpicker{
+    width:auto;
+    height:50px;
+}
+
+
+#content
+{
+    display:inline-block;
+    width:70%;
+    height:700px;
+    margin-top:10px;
+    border:1px solid black;
+}
+
+
+
+#myCanvas
+{
+    display:block;
+}

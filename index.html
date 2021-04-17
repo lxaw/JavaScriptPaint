@@ -1,0 +1,51 @@
+<!-- Written (with love) by Lexington Whalen -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paint</title>
+    <link rel="stylesheet" type = "text/css" href = "style.css" />
+</head>
+
+<body>
+    <h1 id = "title">how to rotate text in ms paint</h1>
+
+    <section class = "utils">
+        <section class = "mouse_coords">
+            <h1 id = "mouse_X">
+                Mouse X: <span id = "x-value"></span>
+            </h1>
+            <h1 id = "mouse_Y">
+                Mouse Y: <span id = "y-value"></span>
+            </h1>
+        </section>
+
+        <section class = "widgets">
+
+            <button class = "myButton" onClick = "clearCanvas()">
+                <p>Clear Canvas</p>
+            </button>
+
+            <input type = "color" id = "colorpicker" value = "#000000">
+                <p>Current Color:</p>
+            <p id = "cur_color"></p>
+
+            <div class = "slider_container">
+                <h1>Stroke Size Slider</h1>
+                <input type = "range" min = "1" max = "10" value = "5"
+                class = "slider" id = "myRange">
+                <p>Slide Value: <span id = "slide_val"></span></p>
+            </div>
+        </section>
+
+    </section>
+
+    <div id="content">
+        <canvas id = "myCanvas"></canvas>
+    </div>
+    <script src = "main.js">
+    </script>
+</body>
+</html>
